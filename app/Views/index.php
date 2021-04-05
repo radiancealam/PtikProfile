@@ -18,7 +18,7 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-trophy-line"></i></div>
             <h4 class="title"><a href="">Akreditasi</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <p class="description">Program Studi Pendidikan Teknik Informatika dan Komputer UNS telah terakreditasi dengan peringkat A.</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-building-4-line"></i></div>
             <h4 class="title"><a href="">Fasilitas</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <p class="description">Progam Studi S-1 Pendidikan Teknik Informatika dan Komputer FKIP UNS menempati gedung yang cukup luas, representative dan strategis di lingkungan FKIP UNS.</p>
           </div>
         </div>
 
@@ -34,7 +34,7 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-user-follow-line"></i></div>
             <h4 class="title"><a href="">Jalur Penerimaan</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            <p class="description">Sistem penerimaan mahasiswa baru di Program Studi Pendidikan Teknik Informatika dan Komputer FKIP UNS hanya membuka 1 jalur yaitu sistem SPMB UNS.</p>
           </div>
         </div>
 
@@ -50,10 +50,24 @@
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-lg-8 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=ijdrsNmd1YE" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+      <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
+        <div class="portfolio-wrap">
+            <figure>
+            <img src="assets/img/ptik.png" class="img-fluid" alt="">
+            </figure>
         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
+        <div class="portfolio-wrap">
+            <figure>
+            <img src="assets/img/uns-besar.png" class="img-fluid" alt="">
+            </figure>
+        </div>
+      </div>
+      <div class="col-lg-8 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
+          <img src="assets/img/about-video.jpg" class="img-fluid" alt="Video Profil PTIK">
+          <a href="https://www.youtube.com/watch?v=ijdrsNmd1YE" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+      </div>
     </div>
 
     </div>
@@ -68,27 +82,27 @@
 
     <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-        <div class="icon-box">
-            <img class="img-fluid" src="<?= base_url(); ?>/assets/img/1.jpg" alt="">
-            <h4><a href="#about">Video Profil PTIK 2021</a></h4>
-            <p>Berpendidikan, berkarakter dan berkompetisi menjadi unggul</p>
-        </div>
+          <div class="icon-box">
+              <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/1.jpg" alt="">
+              <h4><a href="#about">Video Profil PTIK 2021</a></h4>
+              <p>Berpendidikan, berkarakter dan berkompetisi menjadi unggul</p>
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-        <div class="icon-box">
-            <img class="img-fluid" src="<?= base_url(); ?>/assets/img/2.jpg" alt="">
-            <h4><a href="">Pengabdian Masyarakat</a></h4>
-            <p>Pengabdian Masyarakat di Desa Kemuning bersama Permikomnas</p>
-        </div>
+          <div class="icon-box">
+              <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/2.jpg" alt="">
+              <h4><a href="">Pengabdian Masyarakat</a></h4>
+              <p>Pengabdian Masyarakat di Desa Kemuning bersama Permikomnas</p>
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-        <div class="icon-box iconbox-pink">
-            <img class="img-fluid" src="<?= base_url(); ?>/assets/img/3.jpg" alt="">
-            <h4><a href="">Reorganisasi HMP MIKROPTIK Periode 2020/2021</a></h4>
-            <p>Reorganisasi HMP MIKROPTIK Pertama dilakukan secara daring</p>
-        </div>
+          <div class="icon-box iconbox-pink">
+              <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/3.jpg" alt="">
+              <h4><a href="">Reorganisasi HMP MIKROPTIK Periode 2020/2021</a></h4>
+              <p>Reorganisasi HMP MIKROPTIK Pertama dilakukan secara daring</p>
+          </div>
         </div>
 
     </div>
@@ -104,37 +118,48 @@
     </div>
 
     <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
+      <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class="portfolio-wrap">
             <figure>
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="assets/img/juara/2.jpg" class="img-fluid" alt="">
             </figure>
+            <div class="portfolio-links text-center">
+              <a href="assets/img/juara/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK Sabet Medali Perunggu di Jepang"><i class="bx bx-plus"></i></a>
+              <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
         </div>
-        </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
+      <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
         <div class="portfolio-wrap">
             <figure>
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="assets/img/juara/3.jpg" class="img-fluid" alt="">
             </figure>
+            <div class="portfolio-links text-center">
+              <a href="assets/img/juara/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK UNS Mendapatkan Bronze Medal dan Special Award dari King Abdulaziz University"><i class="bx bx-plus"></i></a>
+              <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
         </div>
-        </div>
+      </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
+      <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
         <div class="portfolio-wrap">
             <figure>
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="assets/img/juara/4.jpg" class="img-fluid" alt="">
             </figure>
+            <div class="portfolio-links text-center">
+              <a href="assets/img/juara/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="HMP PTIK juara Lomba Futsal"><i class="bx bx-plus"></i></a>
+              <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
         </div>
-        </div>
+      </div>
 
     </div>
 
     </div>
 </section>
 
-<section id="contact" class="contact">
+<section id="contact" class="contact section-bg">
     <div class="container" data-aos="fade-up">
 
     <div class="section-title">
