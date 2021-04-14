@@ -131,7 +131,7 @@
 <section id="profilDosen" class="portfolio section-bg">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>Dosen S1 - PTIK</h2>
+      <h2>DOSEN DAN TENAGA PENDIDIK</h2>
     </div>
     <div class="row portfolio-container">
       <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
@@ -261,7 +261,7 @@
 <section id="contact" class="contact">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>Lokasi</h2>
+      <h2>LOKASI</h2>
       <p>Jl. A. Yani No.200, Dusun II, Pabelan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57161</p>
     </div>
     <div>
