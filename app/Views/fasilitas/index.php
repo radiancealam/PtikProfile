@@ -3,11 +3,9 @@
 <?= $this->section('content'); ?>
 <section id="fasilitas" class="portfolio">
     <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
+        <div class="section-title mt-5">
             <h2>Fasilitas</h2>
         </div>
-
         <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
@@ -19,7 +17,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
             <div class="portfolio-wrap">
                 <figure>
@@ -30,7 +27,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
             <div class="portfolio-wrap">
                 <figure>
@@ -41,7 +37,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
             <div class="portfolio-wrap">
                 <figure>
@@ -52,9 +47,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
     </div>
 </section>
 <?= $this->endSection(); ?>

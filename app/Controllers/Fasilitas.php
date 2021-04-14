@@ -8,6 +8,7 @@ class Fasilitas extends BaseController
     {
         $data = [
             'title' => 'Fasilitas',
+            'active' => 'fasilitas',
         ];
         return view('fasilitas/index', $data);
     }

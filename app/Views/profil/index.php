@@ -1,12 +1,11 @@
 <?= $this->extend('templates/main'); ?>
 
 <?= $this->section('content'); ?>
-<section id="profil" class="profil">
+<section class="profil">
     <div class="container">
-        <div class="section-title">
-            <h2>Profil S1 - PTIK FKIP UNS</h2>
+        <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="300">
+            <h2>PROFIL S1 - PTIK FKIP UNS</h2>
         </div>
-
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
                 <div class="portfolio-wrap">
@@ -16,10 +15,7 @@
                 </div>
             </div>
         </div>
-
-        <br>
-
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="300">
             <div class="col-lg-8">
                 <h5><strong>VISI</strong></h5>
                 <p>
@@ -45,9 +41,13 @@
                 </p>
             </div>
         </div>
+</section>
 
-        <br>
-
+<section class="profil section-bg">
+    <div class="container">
+        <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="300">
+            <h2>VIDEO PROFIL S1 - PTIK FKIP UNS</h2>
+        </div>
         <div class="row">
             <div class="col-lg-6 col-md-10 col-xs-10 embed-responsive embed-responsive-16by9" data-aos="zoom-in" data-aos-delay="300">
                 <iframe class="embed-responsive-item" width="550" height="315" src="https://www.youtube.com/embed/ijdrsNmd1YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -56,11 +56,16 @@
                 <iframe class="embed-responsive-item" width="550" height="315" src="https://www.youtube.com/embed/gBPvt_mCTAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+    </div>
+</section>
 
-        <br>
-
+<section class="profil">
+    <div class="container">
+        <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="300">
+            <h2>DESKRIPSI</h2>
+        </div>
         <div class="row justify-content-center">
-            <div class="col-lg-12 col-md-10 col-xs-10">
+            <div class="col-lg-12 col-md-10 col-xs-10" data-aos="fade-up" data-aos-delay="300">
                 <p>
                     Fakultas Keguruan dan Ilmu Pendidikan Universitas Sebelas Maret Surakarta merupakan Lembaga Pendidikan Tenaga Kependidikan (LPTK) yang memiliki 24 program studi di 6 jurusan. Masing-masing program studi mempunyai ciri khas dalam menghasilkan tenaga kependidikan yang unggul, berkarakter kuat dan cerdas. Program studi Pendidikan Teknologi Informatika dan Komputer (PTIK) direncanakan bernaung dalam pengelolaan jurusan Pendidikan Teknik dan Kejuruan (PTK). Penempatan ini merevisi pernyataan kami sebelumnya, dimana program studi PTIK bernanung di bawah jurusan P.MIPA. PTIK merupakan program studi yang akan menghasilkan lulusan yang diutamakan akan mengajar dalam program vokasi/kejuruan. Sehingga, akan lebih baik jika PTIK bernanung di bawah jurusan PTK yang membawahi program-program vokasi seperti Pendidikan Teknik Bangunan, dan Pendidikan Teknik Mesin. Untuk memenuhi kebutuhan dosen bidang teknologi informasi yang belum dapat dipenuhi oleh jurusan PTK, PTIK akan melakukan resource sharing dengan prodi matematika.
                 </p>
@@ -72,6 +77,7 @@
                 </p>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <?= $this->endSection(); ?>

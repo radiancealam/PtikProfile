@@ -5,31 +5,11 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" href="<?= base_url('/'); ?>">Beranda</a></li>
-        <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="<?= base_url(); ?>/profil">Profil S1-PTIK</a></li>
-            <li><a href="#">Struktur Organisasi S1-PTIK</a></li>
-            <li><a href="#">Profil Lulusan</a></li>
-            <li><a href="#">Profil Dosen dan Tenaga Pendidik</a></li>
-            <li><a href="#">SPMI Program Studi</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">Jalur Penerimaan</a></li>
-            <li><a href="#">Bidang Peminatan</a></li>
-            <li><a href="#">Daftar Mata Kuliah</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="#"><span>Kemahasiswaan</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">PTIK Juara</a></li>
-            <li><a href="#">Kerjasama</a></li>
-            <li><a href="#">HMP MIKROPTIK PTIK</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-link scrollto" href="<?= base_url('/fasilitas'); ?>">Fasilitas</a></li>
+        <li><a class="nav-link scrollto <?= $active == 'beranda' ? 'active' : ''; ?>" href="<?= base_url('/'); ?>">Beranda</a></li>
+        <li><a class="nav-link scrollto <?= $active == 'profil' ? 'active' : ''; ?>" href="<?= base_url('/profil'); ?>">Profil</a></li>
+        <li><a class="nav-link scrollto <?= $active == 'akademik' ? 'active' : ''; ?>" href="<?= base_url('/akademik'); ?>">Akademik</a></li>
+        <li><a class="nav-link scrollto <?= $active == 'kemahasiswaan' ? 'active' : ''; ?>" href="<?= base_url('/kemahasiswaan'); ?>">Kemahasiswaan</a></li>
+        <li><a class="nav-link scrollto <?= $active == 'fasilitas' ? 'active' : ''; ?>" href="<?= base_url('/fasilitas'); ?>">Fasilitas</a></li>
         </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>

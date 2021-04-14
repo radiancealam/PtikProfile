@@ -8,6 +8,7 @@ class Profil extends BaseController
     {
         $data = [
             'title' => 'Profil',
+            'active' => 'profil',
         ];
         return view('profil/index', $data);
     }
