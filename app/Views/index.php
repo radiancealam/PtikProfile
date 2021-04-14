@@ -39,30 +39,24 @@
   </div>
 </section>
 
-<section id="about" class="about-video">
+<section id="about">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
       <h2>TENTANG KAMI</h2>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
-        <div class="portfolio-wrap">
-          <figure>
-            <img src="assets/img/ptik.png" class="img-fluid" alt="Logo PTIK">
-          </figure>
-        </div>
+        <img src="<?= base_url(); ?>/assets/img/ptik.png" class="img-fluid" alt="Logo PTIK">
       </div>
       <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
-        <div class="portfolio-wrap">
-          <figure>
-            <img src="assets/img/uns-besar.png" class="img-fluid" alt="Logo UNS Besar">
-          </figure>
-        </div>
+        <img src="<?= base_url(); ?>/assets/img/uns-besar.png" class="img-fluid" alt="Logo UNS Besar">
       </div>
-      <div class="col-lg-8 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="300">
-        <img src="assets/img/about-video.jpg" class="img-fluid" alt="Video Profil PTIK">
-        <a href="https://www.youtube.com/watch?v=ijdrsNmd1YE" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+      <div class="col-lg-6 mt-3">
+        <a href="https://youtu.be/ijdrsNmd1YE" target="_blank"><img src="<?= base_url(); ?>/assets/img/video/1.jpg" class="img-fluid" alt="Video Profil PTIK"></a>
       </div>
+      <!-- <div class="col-lg-6">
+        <a href="https://youtu.be/gBPvt_mCTAQ" target="_blank"><img src="<?= base_url(); ?>/assets/img/video/2.jpg" class="img-fluid" alt=""></a>
+      </div> -->
     </div>
   </div>
 </section>
@@ -76,21 +70,21 @@
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
         <div class="icon-box">
           <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/1.jpg" alt="">
-          <h4><a href="#about">Video Profil PTIK 2021</a></h4>
+          <h4>Video Profil PTIK 2021</h4>
           <p>Berpendidikan, berkarakter dan berkompetisi menjadi unggul</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon-box">
           <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/2.jpg" alt="">
-          <h4><a href="">Pengabdian Masyarakat</a></h4>
+          <h4>Pengabdian Masyarakat</h4>
           <p>Pengabdian Masyarakat di Desa Kemuning bersama Permikomnas</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
         <div class="icon-box">
           <img class="img-fluid" src="<?= base_url(); ?>/assets/img/kabar/3.jpg" alt="">
-          <h4><a href="">Reorganisasi HMP MIKROPTIK Periode 2020/2021</a></h4>
+          <h4>Reorganisasi HMP MIKROPTIK Periode 2020/2021</h4>
           <p>Reorganisasi HMP MIKROPTIK Pertama dilakukan secara daring</p>
         </div>
       </div>
@@ -107,30 +101,30 @@
       <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
         <figure>
-          <img src="assets/img/juara/2.jpg" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>/assets/img/juara/2.jpg" class="img-fluid" alt="">
         </figure>
         <div class="portfolio-links text-center">
-          <a href="assets/img/juara/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK Sabet Medali Perunggu di Jepang"><i class="bx bx-plus"></i></a>
+          <a href="<?= base_url(); ?>/assets/img/juara/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK Sabet Medali Perunggu di Jepang"><i class="bx bx-plus"></i></a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
       <div class="portfolio-wrap">
         <figure>
-          <img src="assets/img/juara/3.jpg" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>/assets/img/juara/3.jpg" class="img-fluid" alt="">
         </figure>
         <div class="portfolio-links text-center">
-          <a href="assets/img/juara/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK UNS Mendapatkan Bronze Medal dan Special Award dari King Abdulaziz University"><i class="bx bx-plus"></i></a>
+          <a href="<?= base_url(); ?>/assets/img/juara/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mahasiswa PTIK UNS Mendapatkan Bronze Medal dan Special Award dari King Abdulaziz University"><i class="bx bx-plus"></i></a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
       <div class="portfolio-wrap">
         <figure>
-          <img src="assets/img/juara/4.jpg" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>/assets/img/juara/4.jpg" class="img-fluid" alt="">
         </figure>
         <div class="portfolio-links text-center">
-          <a href="assets/img/juara/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="HMP PTIK juara Lomba Futsal"><i class="bx bx-plus"></i></a>
+          <a href="<?= base_url(); ?>/assets/img/juara/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="HMP PTIK juara Lomba Futsal"><i class="bx bx-plus"></i></a>
         </div>
       </div>
     </div>
@@ -147,120 +141,120 @@
       <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
         <figure>
-          <img src="assets/img/dosen/cucuk.jpg" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>/assets/img/dosen/cucuk.jpg" class="img-fluid" alt="">
         </figure>
         <div class="portfolio-links text-center">
-          <a href="assets/img/dosen/cucuk.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cucuk Wawan Budiyanto, S.T., Ph.D."><i class="bx bx-plus"></i></a>
+          <a href="<?= base_url(); ?>/assets/img/dosen/cucuk.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cucuk Wawan Budiyanto, S.T., Ph.D."><i class="bx bx-plus"></i></a>
         </div>
       </div>
     </div>
     <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
       <figure>
-        <img src="assets/img/dosen/hatta.jpg" class="img-fluid" alt="">
+        <img src="<?= base_url(); ?>/assets/img/dosen/hatta.jpg" class="img-fluid" alt="">
       </figure>
       <div class="portfolio-links text-center">
-        <a href="assets/img/dosen/hatta.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Puspanda Hatta, S.Kom., M.Eng."><i class="bx bx-plus"></i></a>
+        <a href="<?= base_url(); ?>/assets/img/dosen/hatta.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Puspanda Hatta, S.Kom., M.Eng."><i class="bx bx-plus"></i></a>
       </div>
     </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/nurcahya.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/nurcahya.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/nurcahya.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nurcahya Pradana Taufik Prakisya, S.Kom., M.Cs."><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/nurcahya.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nurcahya Pradana Taufik Prakisya, S.Kom., M.Cs."><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/febri.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/febri.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/febri.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Febri Liantoni, S.ST., M.Kom"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/febri.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Febri Liantoni, S.ST., M.Kom"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/aris.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/aris.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/aris.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aris Budianto, ST. M.Eng"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/aris.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aris Budianto, ST. M.Eng"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/basori.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/basori.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/basori.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basori, M.Pd"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/basori.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basori, M.Pd"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/rosihan.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/rosihan.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/rosihan.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rosihan Ari Yuana, S. Si, M. Kom"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/rosihan.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rosihan Ari Yuana, S. Si, M. Kom"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/dwi.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/dwi.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/dwi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dwi Maryono, S.Si., M.Kom"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/dwi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dwi Maryono, S.Si., M.Kom"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/agus-efendi.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/agus-efendi.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/agus-efendi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dr.Agus Efendi, M.Pd"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/agus-efendi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dr.Agus Efendi, M.Pd"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/yudianto.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/yudianto.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/yudianto.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yudianto Sujana, S. Kom., M.Kom"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/yudianto.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yudianto Sujana, S. Kom., M.Kom"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/endar.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/endar.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/endar.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Endar Suprih Wihidayat, S.T.,M.Eng"><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/endar.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Endar Suprih Wihidayat, S.T.,M.Eng"><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>
   <div class="col-lg-3 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300"">
         <div class=" portfolio-wrap">
     <figure>
-      <img src="assets/img/dosen/yusfia.jpg" class="img-fluid" alt="">
+      <img src="<?= base_url(); ?>/assets/img/dosen/yusfia.jpg" class="img-fluid" alt="">
     </figure>
     <div class="portfolio-links text-center">
-      <a href="assets/img/dosen/yusfia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yusfia Hafid Aristyagama, S.T.,M.T."><i class="bx bx-plus"></i></a>
+      <a href="<?= base_url(); ?>/assets/img/dosen/yusfia.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yusfia Hafid Aristyagama, S.T.,M.T."><i class="bx bx-plus"></i></a>
     </div>
   </div>
   </div>

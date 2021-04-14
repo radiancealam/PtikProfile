@@ -1,7 +1,7 @@
 <?= $this->extend('templates/main'); ?>
 
 <?= $this->section('content'); ?>
-<section class="profil">
+<section id="profil" class="profil">
     <div class="container">
         <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="300">
             <h2>PROFIL S1 - PTIK FKIP UNS</h2>
@@ -10,7 +10,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-aos="zoom-in" data-aos-delay="300">
                 <div class="portfolio-wrap">
                     <figure>
-                        <img src="assets/img/ptik.png" class="img-fluid" alt="Logo PTIK">
+                        <img src="<?= base_url(); ?>/assets/img/ptik.png" class="img-fluid" alt="Logo PTIK">
                     </figure>
                 </div>
             </div>
@@ -46,14 +46,11 @@
 <section class="profil section-bg">
     <div class="container">
         <div class="section-title mt-5" data-aos="zoom-in" data-aos-delay="300">
-            <h2>VIDEO PROFIL S1 - PTIK FKIP UNS</h2>
+            <h2>AKREDITASI</h2>
         </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-10 col-xs-10 embed-responsive embed-responsive-16by9" data-aos="zoom-in" data-aos-delay="300">
-                <iframe class="embed-responsive-item" width="550" height="315" src="https://www.youtube.com/embed/ijdrsNmd1YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-lg-6 embed-responsive embed-responsive-16by9" data-aos="zoom-in" data-aos-delay="300">
-                <iframe class="embed-responsive-item" width="550" height="315" src="https://www.youtube.com/embed/gBPvt_mCTAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row justify-content-center">
+            <div class="col-lg-8" data-aos="zoom-in" data-aos-delay="300">
+                <img src="<?= base_url(); ?>/assets/img/profil/akreditasi.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
