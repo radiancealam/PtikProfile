@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center justify-content-between">
 
-    <h1 class="logo"><a href="">PTIK</a></h1>
+    <h1 class="logo"><a href="#">PTIK FKIP UNS</a></h1>
 
     <nav id="navbar" class="navbar">
       <ul>

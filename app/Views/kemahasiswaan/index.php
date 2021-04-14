@@ -19,8 +19,8 @@
         </div>
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
             <div class="text-center mt-5">
-                <a href="https://www.instagram.com/mikroptik_uns/" class="btn btn-primary"><i class="ri-instagram-fill"></i> Kunjungi Kami</a>
-                <a href="https://www.youtube.com/channel/UCJpIkoTvWsfkDKfump_857A/videos" class="btn btn-danger"><i class="ri-youtube-fill"></i> Kunjungi Kami</a>
+                <a href="https://www.instagram.com/mikroptik_uns/" class="btn btn-primary" target="_blank"><i class="ri-instagram-fill"></i> Kunjungi Kami</a>
+                <a href="https://www.youtube.com/channel/UCJpIkoTvWsfkDKfump_857A/videos" class="btn btn-danger"><i class="ri-youtube-fill" target="_blank"></i> Kunjungi Kami</a>
             </div>
         </div>
     </div>
